@@ -313,6 +313,9 @@ msgstr ""
 msgid "Center Canvas"
 msgstr ""
 
+msgid "Fit To Frame"
+msgstr ""
+
 msgid "Tile Mode"
 msgstr ""
 

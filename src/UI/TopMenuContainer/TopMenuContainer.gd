@@ -328,6 +328,7 @@ func _setup_view_menu() -> void:
 	# Order as in Global.ViewMenu enum
 	var view_menu_items := {
 		"Center Canvas": "center_canvas",
+		"Fit To Frame": "fit_to_frame",
 		"Tile Mode": "",
 		"Tile Mode Offsets": "",
 		"Grayscale View": &"grayscale_view",
@@ -351,6 +352,8 @@ func _setup_view_menu() -> void:
 		elif item == "Tile Mode Offsets":
 			view_menu.add_item(item, i)
 		elif item == "Center Canvas":
+			_set_menu_shortcut(view_menu_items[item], view_menu, i, item)
+		elif item == "Fit To Frame":
 			_set_menu_shortcut(view_menu_items[item], view_menu, i, item)
 		else:
 			_set_menu_shortcut(view_menu_items[item], view_menu, i, item, true)
@@ -823,6 +826,9 @@ func view_menu_id_pressed(id: int) -> void:
 	match id:
 		Global.ViewMenu.CENTER_CANVAS:
 			Global.camera.offset = Global.current_project.size / 2
+		Global.ViewMenu.FIT_TO_FRAME:
+			for camera: CanvasCamera in get_tree().get_nodes_in_group("CanvasCameras"):
+				camera.fit_to_frame(Global.current_project.size)
 		Global.ViewMenu.TILE_MODE_OFFSETS:
 			_popup_dialog(get_tree().current_scene.tile_mode_offsets_dialog)
 		Global.ViewMenu.GREYSCALE_VIEW:
