@@ -63,6 +63,7 @@ enum EditMenu {
 ## Enumeration of items present in the View Menu.
 enum ViewMenu {
 	CENTER_CANVAS,
+	FIT_TO_FRAME,
 	TILE_MODE,
 	TILE_MODE_OFFSETS,
 	MIRROR_VIEW,
@@ -996,6 +997,7 @@ func _initialize_keychain() -> void:
 		&"pixelize": Keychain.InputAction.new("", "Effects menu", true),
 		&"posterize": Keychain.InputAction.new("", "Effects menu", true),
 		&"center_canvas": Keychain.InputAction.new("", "View menu", true),
+		&"fit_to_frame": Keychain.InputAction.new("", "View menu", true),
 		&"mirror_view": Keychain.InputAction.new("", "View menu", true),
 		&"show_grid": Keychain.InputAction.new("", "View menu", true),
 		&"show_pixel_grid": Keychain.InputAction.new("", "View menu", true),
