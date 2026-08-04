@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: pixelorama\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: English\n"
-"Language: en_US\n"
+"Language: en_GB\n"
 "PO-Revision-Date: 2020-05-01 16:46\n"
 
 msgid "OK"
@@ -131,7 +131,7 @@ msgid "Show Animation Timeline"
 msgstr ""
 
 msgid "Fill with color:"
-msgstr ""
+msgstr "Fill with colour:"
 
 msgid "Open a File"
 msgstr ""
@@ -294,10 +294,10 @@ msgid "Affect Brush's Alpha"
 msgstr ""
 
 msgid "Color:"
-msgstr ""
+msgstr "Colour:"
 
 msgid "Guide color:"
-msgstr ""
+msgstr "Guide colour:"
 
 msgid "System Language"
 msgstr ""
@@ -315,7 +315,7 @@ msgid "Light"
 msgstr ""
 
 msgid "Invert colors"
-msgstr ""
+msgstr "Invert colours"
 
 msgid "Desaturation"
 msgstr ""
@@ -470,7 +470,10 @@ msgid "Color Picker\n"
 "Select a color from a pixel of the sprite\n\n"
 "%s for left mouse button\n"
 "%s for right mouse button"
-msgstr ""
+msgstr "Colour Picker\n"
+"Select a colour from a pixel of the sprite\n\n"
+"%s for left mouse button\n"
+"%s for right mouse button"
 
 msgid "Draw Tools"
 msgstr ""
@@ -498,17 +501,18 @@ msgid "Lighten/Darken\n\n"
 msgstr ""
 
 msgid "Choose a color for the left tool"
-msgstr ""
+msgstr "Choose a colour for the left tool"
 
 msgid "Choose a color for the right tool"
-msgstr ""
+msgstr "Choose a colour for the right tool"
 
 msgid "Switch left and right colors\n"
 "(%s)"
-msgstr ""
+msgstr "Switch left and right colours\n"
+"(%s)"
 
 msgid "Reset the colors to their default state (black for left, white for right)"
-msgstr ""
+msgstr "Reset the colours to their default state (black for left, white for right)"
 
 msgid "Left tool"
 msgstr ""
@@ -541,10 +545,10 @@ msgid "Displays an icon of the selected right tool next to the cursor on the can
 msgstr ""
 
 msgid "Guides color:"
-msgstr ""
+msgstr "Guides colour:"
 
 msgid "A color of ruler guides displayed on the canvas"
-msgstr ""
+msgstr "A colour of ruler guides displayed on the canvas"
 
 msgid "Grid width:"
 msgstr ""
@@ -559,10 +563,10 @@ msgid "Sets how far apart are horizontal lines of the grid"
 msgstr ""
 
 msgid "Grid color:"
-msgstr ""
+msgstr "Grid colour:"
 
 msgid "A color of the grid"
-msgstr ""
+msgstr "A colour of the grid"
 
 msgid "Checker size:"
 msgstr ""
@@ -571,16 +575,16 @@ msgid "Size of the transparent checker background"
 msgstr ""
 
 msgid "Checker color 1:"
-msgstr ""
+msgstr "Checker colour 1:"
 
 msgid "First color of the transparent checker background"
-msgstr ""
+msgstr "First colour of the transparent checker background"
 
 msgid "Checker color 2:"
-msgstr ""
+msgstr "Checker colour 2:"
 
 msgid "Second color of the transparent checker background"
-msgstr ""
+msgstr "Second colour of the transparent checker background"
 
 msgid "Only custom preset can be modified"
 msgstr ""
@@ -607,25 +611,25 @@ msgid "Brush size:"
 msgstr ""
 
 msgid "Brush color from"
-msgstr ""
+msgstr "Brush colour from"
 
 msgid "0: Color from the brush itself, 100: the currently selected color"
-msgstr ""
+msgstr "0: Colour from the brush itself, 100: the currently selected colour"
 
 msgid "Fill area:"
 msgstr ""
 
 msgid "Same color area"
-msgstr ""
+msgstr "Same colour area"
 
 msgid "Same color pixels"
-msgstr ""
+msgstr "Same colour pixels"
 
 msgid "Fill with:"
 msgstr ""
 
 msgid "Selected Color"
-msgstr ""
+msgstr "Selected Colour"
 
 msgid "Pattern"
 msgstr ""
@@ -649,10 +653,10 @@ msgid "Pick for:"
 msgstr ""
 
 msgid "Left Color"
-msgstr ""
+msgstr "Left Colour"
 
 msgid "Right Color"
-msgstr ""
+msgstr "Right Colour"
 
 msgid "Mode:"
 msgstr ""
@@ -940,7 +944,7 @@ msgid "Palette Name:"
 msgstr ""
 
 msgid "Color Name:"
-msgstr ""
+msgstr "Colour Name:"
 
 msgid "Create a new empty palette?"
 msgstr ""
@@ -997,10 +1001,10 @@ msgid "A default height of a new image"
 msgstr ""
 
 msgid "Default fill color:"
-msgstr ""
+msgstr "Default fill colour:"
 
 msgid "A default background color of a new image"
-msgstr ""
+msgstr "A default background colour of a new image"
 
 msgid "Lock aspect ratio:"
 msgstr ""
@@ -1027,7 +1031,7 @@ msgid "Zoom"
 msgstr ""
 
 msgid "Color Picker"
-msgstr ""
+msgstr "Colour Picker"
 
 msgid "Pencil"
 msgstr ""
@@ -1042,7 +1046,7 @@ msgid "Lighten/Darken"
 msgstr ""
 
 msgid "Switch Colors"
-msgstr ""
+msgstr "Switch Colours"
 
 msgid "Set the shortcut"
 msgstr ""
